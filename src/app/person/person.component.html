@@ -1,0 +1,7 @@
+<div *ngFor="let person of persons">
+    <p>{{ person.firstName }} {{ person.lastName }}</p>
+    <p>{{ person.address }}</p>
+    <p>{{ person.city }}, {{ person.province }}</p>
+    <p>{{ person.phone }}</p>
+    <p>Last Updated: {{ person.lastUpdated | date }}</p>
+  </div>
